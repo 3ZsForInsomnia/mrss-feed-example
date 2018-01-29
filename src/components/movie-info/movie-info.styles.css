@@ -1,0 +1,36 @@
+.movie-info {
+    min-height: 70vh;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ccc;
+}
+
+.movie-info__empty {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    color: #333;
+    font-size: 30px;
+}
+
+.movie-info__text {
+    grid-row-start: 3;
+    grid-column-start: 0;
+    display: flex;
+    /* Above keeps the text looking somewhat cleaner than the alternative */
+}
+
+.movie-info__title {
+    font-size: 30px;
+    color: #fff;
+    padding-right: 6px;
+}
+
+.movie-info__runtime {
+    padding: 8px;
+    font-size: 22px;
+    color: #ddd;
+}

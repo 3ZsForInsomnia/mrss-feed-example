@@ -1,0 +1,15 @@
+.carousel {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel__nextprev {
+    color: darkblue;
+}
+
+.carousel__button {
+    cursor: pointer;
+    font-size: 50px;
+    margin: 6px 2px;
+}

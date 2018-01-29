@@ -1,0 +1,13 @@
+.related-movie {
+    margin: 20px;
+}
+
+.related-movie__image {
+    height: 340px;
+    width: 240px;
+}
+
+.related-movie__title {
+    font-size: 16px;
+    color: white;
+}

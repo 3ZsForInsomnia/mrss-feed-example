@@ -1,0 +1,12 @@
+.routable-link {
+    width: 60px;
+    margin: auto 0;
+    padding: 0 20px;
+}
+
+.routable-link__text {
+    font-size:  16px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}

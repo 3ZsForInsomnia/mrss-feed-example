@@ -1,0 +1,11 @@
+.carousel-dot {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.carousel-dot--selected {
+    color: blue;
+}
